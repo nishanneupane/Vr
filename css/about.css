@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-section {
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+
+.about-section h2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #d6dbdf;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.about-section h2::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 50px;
+    bottom: 0;
+    left: auto;
+    background: #aa9696;
+}
+
+.about-section p {
+    text-align: center;
+    color: #aa9696;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.about-section button {
+    text-align: center;
+    width: 15%;
+    font-size: 100%;
+    text-align: center;
+    background: transparent;
+    background: #33688b;
+    border: none;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px 32px 2px 50px;
+    transition: 0.5s ease;
+
+
+
+}
+
+.about-section button:hover {
+    background: #0d3a57;
+    box-shadow: 0px 0px 15px #d6dbdf;
+}
+
+.about-section button a {
+    color: #d6dbdf;
+    font-weight: 600;
+    font-size: 100%;
+    font-family: Times, serif;
+}
+
+@media(max-width: 980px){
+    .about-section{
+        height: 100vh;
+        transform: scale(0.95);
+        
+    }
+    .about-section h2{
+        font-size: large;
+    }
+    .about-section p{
+        font-size: medium;
+    }
+    .about-section button{
+        width: 100px;
+    }
+    .about-section button a{
+        font-size: medium;
+    }
+    
+
+}
+@media(max-width: 650px){
+    .about-section{
+        height: 90vh;
+        transform: scale(0.9);
+    }
+    
+    .about-section h2{
+        font-size: large;
+        line-height: normal;
+    }
+    .about-section button a{
+        font-size: small;
+    }
+    .about-section p{
+        font-size: 62%;
+    }
+
+}
+@media(max-width:450px){
+    .about-section{
+        height: 100vh;
+        width: 90%;
+    }
+    .about-section h2{
+
+        line-height: 10px;
+    }
+}

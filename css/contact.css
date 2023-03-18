@@ -90,3 +90,13 @@ textarea {
         font-size: 20px;
     }
 }
+@media(max-width: 450px){
+    .contact-form{
+        margin-top: -100px;
+        display: block;
+        height: fit-content;
+    }
+    .contact-form h1{
+        font-size: 20px;
+    }
+}

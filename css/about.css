@@ -11,7 +11,6 @@
     margin-top: 0px;
     justify-content: center;
     text-align: center;
-    margin-bottom: 0;
     
 }
 
@@ -114,7 +113,7 @@
 }
 @media(max-width:450px){
     .about-section{
-        height: 100vh;
+        height: 60vh;
         width: 90%;
     }
     .about-section h2{

@@ -33,6 +33,33 @@ a{
     text-decoration: none;
     
 }
+/*
+.threed{
+    display: flex;
+    justify-self: center;
+    padding: 10px 5px;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px -2px 5px #a96bc0,
+                3px -3px 5px #175780,
+                4px -4px 5px #a96bc0,
+                5px -5px 5px #175780,
+                6px -6px 5px #a96bc0,
+                7px -7px 5px #175780,
+                8px -8px 5px #a96bc0,
+                9px -9px 5px #175780,
+                -2px 2px 5px #a96bc0,
+                -3px 3px 5px #175780,
+                -4px 4px 5px #a96bc0,
+                -5px 5px 5px #175780,
+                -6px 6px 5px #a96bc0,
+                -7px 7px 5px #175780,
+                -8px 8px 5px #a96bc0,
+                -9px 9px 5px #175780;
+    margin-bottom: 23px;
+}
+*/
 .top-bar{
     display: flex;
     width: 100%;
@@ -77,15 +104,25 @@ a{
     
 }
 .Homepage .logo a{
+    text-transform: uppercase;
     color: aqua;
     font-weight: 600;
     font-family: sans-serif;
 }
 .Homepage .logo a span{
-    color: #d6dbdf;
+    color: #2a0538;
     font-size: 25px;
+    margin: 0 20px;
     font-family: sans-serif;
     font-weight: 800;
+    transform: skew(20deg);
+    font-size: 32px;
+    text-shadow: 1px 1px aqua,
+                 2px 2px aqua,
+                 3px 3px aqua,
+                 4px 4px aqua,
+                 10px 10px 10px #07002a;
+
 }
 .Homepage .logo a p{
     color: #10669b;
@@ -158,8 +195,30 @@ a{
 }
 
 .banner .content-panel .content h1{
-    color: #d6dbdf;
+    color: #aa9696;
     margin-bottom: 5px;
+    text-transform: uppercase;
+    /*
+    transform: skew(20deg);
+    font-size: 32px;
+    text-shadow: 1px 1px #020f3a,
+                 2px 2px #020f3a,
+                 3px 3px #020f3a,
+                 4px 4px #020f3a,
+                 5px 5px #020f3a,
+                 6px 6px #020f3a,
+                 7px 7px #020f3a,
+                 8px 8px #020f3a,
+                 9px 9px #020f3a,
+                 10px 10px 10px #07002a,
+                 11px 11px 10px #07002a,
+                 12px 12px 10px #07002a,
+                 13px 13px 10px #07002a,
+                 14px 14px 10px #07002a,
+                 15px 15px 10px #07002a,
+                 16px 16px 10px #07002a;
+    */
+
 }
 .banner .content-panel .content p{
     max-width: 300px;
